@@ -1,8 +1,13 @@
 from typing import List, Union
 import json
+
 from youtubesearchpython.handlers.componenthandler import ComponentHandler
 from youtubesearchpython.handlers.requesthandler import RequestHandler
-from youtubesearchpython.core.constants import *
+from youtubesearchpython.core.constants import (
+    videoElementKey,
+    playlistElementKey,
+    shelfElementKey,
+)
 
 
 def overrides(interface_class):
